@@ -15,13 +15,17 @@
 * For the Ensemble-based model, a Hard Voting Ensemble Classifier was implemented using Logistic Regression, Support Vector Machine with a Gaussian RBF Kernel, Decision Tree & Random Forest Classifiers.
 * Model performance details : 
 
-	|Serial No.| Tables        | Are           | Cool  |
-	|---| ------------- |:-------------:|-------|
-	|s     | col 3 is      | right-aligned | $1600 |
-	|s     | col 2 is      | centered      |   $12 |
-	|s-    | zebra stripes | are neat      |    $1 |
+    | Serial No. |                      Model                      | Accuracy Score on Training Set | Accuracy Score on Test Set | F1 Score on Test Set | Confusion Matrix evaluated on Test Set (61 samples) |
+    |:----------:|:-----------------------------------------------:|:------------------------------:|:--------------------------:|:--------------------:|:---------------------------------------------------:|
+    |     1.     |                  Decision Tree                  |               83%              |             77%            |          79%         |                                                     |
+    |     2.     |                  Random Forest                  |               86%              |             84%            |          84%         |                                                     |
+    |     3.     | Support Vector Machine with a Polynomial Kernel |               93%              |             82%            |          83%         |                                                     |
+    |     4.     |               K-nearest neighbors               |               91%              |             84%            |          84%         |                                                     |
+    |     5.     |               Logistic Regression               |               88%              |             84%            |          84%         |                                                     |
+    |     6.     |                   Naive Bayes                   |               87%              |             80%            |          81%         |                                                     |
+    |     7.     |            Hard Voting Ensemble Model           |               99%              |             87%            |          87%         |                                                     |
 
 #### Results :
-The **Hard Voting Ensemble Model** has the highest out-of-sample accuracy score of 0.87 as well as highest F1 score of 0.87 whereas the Decision Tree Model has the lowest out-of-sample accuracy score of 0.75 as well as lowest F1 score of 0.76. The second-best performing model is - with an out-of-sample accuracy score of - as well as an F1 score of -
+The **Hard Voting Ensemble Model** has the highest out-of-sample accuracy score of 0.87 as well as highest F1 score of 0.87 whereas the Decision Tree Model has the lowest out-of-sample accuracy score of 0.77 as well as lowest F1 score of 0.79. 
 
 >*Note : Because of the small size of the dataset, a better test-set performance couldn't be attained. Also, a small dataset puts a constraint on the test-set size, which in turn prevents us from getting an accurate estimation on our out-of-sample evaluation metrics which actually help us estimate how our models will perform in the real world.*

@@ -15,15 +15,15 @@
 * For the Ensemble-based model, a Hard Voting Ensemble Classifier was implemented using Logistic Regression, Support Vector Machine with a Gaussian RBF Kernel, Decision Tree & Random Forest Classifiers.
 * Model performance details : 
 
-    | Serial No. |                      Model                      | Accuracy Score on Training Set | Accuracy Score on Test Set | F1 Score on Test Set | Confusion Matrix evaluated on Test Set (61 samples) |
-    |:----------:|:-----------------------------------------------:|:------------------------------:|:--------------------------:|:--------------------:|:---------------------------------------------------:|
-    |     1.     |                  Decision Tree                  |               83%              |             77%            |          79%         |    ![](./misc/confusion_matrix_decisiontree.png)    |
-    |     2.     |                  Random Forest                  |               86%              |             84%            |          84%         |                                                     |
-    |     3.     | Support Vector Machine with a Polynomial Kernel |               93%              |             82%            |          83%         |                                                     |
-    |     4.     |               K-nearest neighbors               |               91%              |             84%            |          84%         |                                                     |
-    |     5.     |               Logistic Regression               |               88%              |             84%            |          84%         |                                                     |
-    |     6.     |                   Naive Bayes                   |               87%              |             80%            |          81%         |                                                     |
-    |     7.     |            Hard Voting Ensemble Model           |               99%              |             87%            |          87%         |                                                     |
+    | Serial No. |                      Model                      | Accuracy Score on Training Set | Accuracy Score on Test Set | F1 Score on Test Set |                Confusion Matrix evaluated on Test Set (61 samples)                |
+    |:----------:|:-----------------------------------------------:|:------------------------------:|:--------------------------:|:--------------------:|:---------------------------------------------------------------------------------:|
+    |     1.     |                  Decision Tree                  |               83%              |             77%            |          79%         |           ![For Decision Tree](./misc/confusion_matrix_decisiontree.png)          |
+    |     2.     |                  Random Forest                  |               86%              |             84%            |          84%         |           ![For Random Forest](./misc/confusion_matrix_randomforest.png)          |
+    |     3.     | Support Vector Machine with a Polynomial Kernel |               93%              |             82%            |          83%         |                    ![For SVM](./misc/confusion_matrix_svm.png)                    |
+    |     4.     |               K-nearest neighbors               |               91%              |             84%            |          84%         |                    ![For KNN](./misc/confusion_matrix_knn.png)                    |
+    |     5.     |               Logistic Regression               |               88%              |             84%            |          84%         |     ![For Logistic Regression](./misc/confusion_matrix_logisticregression.png)    |
+    |     6.     |                   Naive Bayes                   |               87%              |             80%            |          81%         |             ![For Naive Bayes](./misc/confusion_matrix_naivebayes.png)            |
+    |     7.     |            Hard Voting Ensemble Model           |               99%              |             87%            |          87%         | ![For Hard Voting Ensemble Model](./misc/confusion_matrix_hardvotingensemble.png) |
 
 #### Results :
 The **Hard Voting Ensemble Model** has the highest out-of-sample accuracy score of 0.87 as well as highest F1 score of 0.87 whereas the Decision Tree Model has the lowest out-of-sample accuracy score of 0.77 as well as lowest F1 score of 0.79. 

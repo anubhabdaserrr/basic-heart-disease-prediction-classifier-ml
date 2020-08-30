@@ -17,7 +17,7 @@
 
     | Serial No. |                      Model                      | Accuracy Score on Training Set | Accuracy Score on Test Set | F1 Score on Test Set | Confusion Matrix evaluated on Test Set (61 samples) |
     |:----------:|:-----------------------------------------------:|:------------------------------:|:--------------------------:|:--------------------:|:---------------------------------------------------:|
-    |     1.     |                  Decision Tree                  |               83%              |             77%            |          79%         |                                                     |
+    |     1.     |                  Decision Tree                  |               83%              |             77%            |          79%         |    ![](./misc/confusion_matrix_decisiontree.png)    |
     |     2.     |                  Random Forest                  |               86%              |             84%            |          84%         |                                                     |
     |     3.     | Support Vector Machine with a Polynomial Kernel |               93%              |             82%            |          83%         |                                                     |
     |     4.     |               K-nearest neighbors               |               91%              |             84%            |          84%         |                                                     |

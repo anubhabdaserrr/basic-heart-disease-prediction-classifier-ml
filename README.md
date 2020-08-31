@@ -9,7 +9,7 @@
 	* Logistic Regression
 	* Naive Bayes
 	* Hard Voting based Ensemble
-* The dataset of 303 examples was split into 242 training examples & 61 test examples.
+* The dataset of 303 examples was split into 242 training examples (80%) & 61 test examples (20%).
 * Evaluation Metrics used for determining model accuracy - Accuracy Score & F1 Score.
 * Hyperparameters for the first 6 models (as listed above) were tuned via 10-fold cross validation using GridSearchCV.
 * For the Ensemble-based model, a Hard Voting Ensemble Classifier was implemented using Logistic Regression, Support Vector Machine with a Gaussian RBF Kernel, Decision Tree & Random Forest Classifiers.
